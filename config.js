@@ -293,10 +293,7 @@ const scripts = ({
             },
           },
         ],
-      ],
-      plugins: [
-        ['transform-object-rest-spread', { loose: false }],
-      ],
+      ]
     },
     context: cwd,
     entry: getEntriesFromGlob(path.posix.join(app, scriptsPath, '/*.js')),

@@ -91,7 +91,7 @@ const templatesBuildTask = function templatesBuild(done) {
       )
     ))
     .pipe(data(() => {
-      const yamlData = yaml.safeLoad(
+      const yamlData = yaml.load(
         fs.readFileSync(dataPath, 'utf8')
       );
         const helpers = fs.existsSync(helpersPath) ? require(helpersPath) : {}; // eslint-disable-line

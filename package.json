@@ -69,9 +69,6 @@
     "yargs": "~17.7.2"
   },
   "devDependencies": {
-    "@babel/plugin-transform-class-properties": "^7.22.5",
-    "@babel/plugin-transform-private-methods": "^7.22.5",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "eslint-config-airbnb-base": "~15.0.0",
     "eslint-plugin-import": "~2.29.0",
     "lint-staged": "~15.0.2",
@@ -98,10 +95,6 @@
           }
         }
       ]
-    ],
-    "plugins": [
-      "transform-object-rest-spread",
-      "transform-class-properties"
     ]
   },
   "eslintConfig": {
